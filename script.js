@@ -40,7 +40,7 @@ let arr = [
     //Write your code here, just console.log
     let failedstudent = arr.filter(function(array)
     {
-      if(array.marks <= 50 )
+      if(array.marks >= 50 )
       {
         return array
       }
